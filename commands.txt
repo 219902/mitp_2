@@ -1,0 +1,87 @@
+ls - list files:
+	-l long listing info
+	-h human readable size
+	-a show all
+
+man [command] - shows manual for 'command'
+	man [command] [section] - opens given 'section'
+clear - clear current screen
+cd [path] - change directory to given 'path' (absolute or relative path)
+	without args, takes us to our home directory
+pwd - pring working directory
+mkdir [name] - make directory named 'name'
+touch [name] - create empty file named 'name'
+cp [src] [dest] - copy from 'source' to the 'destination'
+	dest might be a directory, than we will copy to given directory
+	-r recursive (for directories)
+	-f force
+	-u copy only newer or missing 
+	-i interactive (prompt if overwriting)
+	-n no interactive :o
+mv - move file/directory
+rm - remove
+	-r recursive (for directories)
+echo - echo to stdout
+cat - concatenate files and print to stdout
+less, more - shows file, but do not store it in the history
+tail - output last part of files
+grep [what] [where] - find swiss army knife
+	-i ignore case
+	-n shows line number
+	-r recursive
+	-A, -B how many files After and Before found position
+find [where] -name [name] - search for files
+	-exec execute on found files
+		found . -name "*.c" -exec echo "Found file is: {}" \;
+wc - word count
+file - infos about file
+which - shows full path to command
+
+source - execute script in file
+	
+hexdump
+od - dump file in octal
+magic
+strings
+talk
+mesg
+who
+
+pipes:
+	[smth 1] | [smth 2] - pipes (passes) output from 'smth 1' to 'smth 2's input
+redirection of std out:
+	[smth 1] > [smth 2] -redirects stdout
+environment variables
+HOME - our directory
+PATH - bin search path
+
+wildcards
+	* - anything anytime
+	
+
+file starting with . is hidden file (use 'ls -al' to show it)
+'.' is a current directory
+'..' is upper directory
+
+mode bits
+	r - read
+	w - write
+	x - execute
+	drwxrwxrwx
+		d - if directory
+		rwx - user
+		rwx - group
+		rwx - admin
+chmod - change mode bits
+	[u/g/r]+rwx
+		chmod u+x file - make file executable
+
+
+internets
+bash:
+https://www.gnu.org/software/bash/manual/html_node/Pipelines.html
+https://www.gnu.org/software/bash/manual/html_node/Redirections.html
+https://www.gnu.org/software/bash/manual/html_node/index.html
+
+nano multiple files:
+https://stackoverflow.com/questions/19816699/how-to-open-multiple-files-and-switch-between-them-in-nano-text-editor

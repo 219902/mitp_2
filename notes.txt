@@ -1,0 +1,12 @@
+^O - save current file
+^X - close Nano (with asking for saving)
+^R - paste file into current file
+^W - find in file
+^K - cut
+^U - paste
+^A - return caret
+^E - line end
+^Y, ^V - prev, next page
+M-A - select start
+M-6 - copy selected
+^L - refresh screen
