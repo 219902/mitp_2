@@ -30,6 +30,10 @@ grep [what] [where] - find swiss army knife
 	-n shows line number
 	-r recursive
 	-A, -B how many files After and Before found position
+	-E use regex
+
+dom
+domy
 find [where] -name [name] - search for files
 	-exec execute on found files
 		found . -name "*.c" -exec echo "Found file is: {}" \;
@@ -76,6 +80,8 @@ chmod - change mode bits
 	[u/g/r]+rwx
 		chmod u+x file - make file executable
 
+text editors:
+micro
 
 internets
 bash:
