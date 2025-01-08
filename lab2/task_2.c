@@ -11,7 +11,7 @@ int main(void)
 	{
 		//int64_t sum = input * (input + 1) * 0.5f;
 		int64_t sum = 0;
-		for(size_t i = 1; i <= (size_t)input; ++i)
+		for(int32_t i = 1; i <= input; ++i)
 		{
 			sum += i;
 		}
