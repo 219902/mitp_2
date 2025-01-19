@@ -1,0 +1,2 @@
+gcc
+-E show code after preprocessing
