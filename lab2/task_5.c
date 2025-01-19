@@ -6,6 +6,7 @@ int main(void)
 	printf("Enter a positive number: ");
 	uint32_t input;
 	scanf("%u", &input);
+	printf("%u", input);
 	if((input % 3 == 0)  && (input % 5 == 0))
 	{
 		printf("3 and 5\n");
