@@ -1,0 +1,27 @@
+Zadanie obowiazkowe:
+
+    Stworz program w ktorym:
+        poza funkcja main() zdefiniujesz strukture Point, ktora posiada dwa pola typu int, odpowiednio x oraz y
+        stworzysz funkcje mitp_print_point(), ktora nie zwraca zadnej wartosci
+i przyjmuje jako jedyny argument wskaznik na strukture Point
+            funkcja ta powinna wypisac jakie wspolrzedne x oraz y ma przekazany "punkt"
+        w funkcji main() stworzysz strukture Point, ktorej przypiszesz
+wybrane przez siebie wspolrzedne
+        w funkcji main() wypiszesz jakie wspolrzedne ma stworzony przez Ciebie "punkt"
+        wywolasz odpowiednio funkcje mitp_print_point(), do kterej odpowiednio
+przekazesz stworzony przez siebie "punkt"
+
+Zadanie nieobowiazkowe (ale serdecznie polecam zrobic):
+
+    Stworz program w ktorym:
+        poza funkcje main() zdefiniujesz strukture Point, ktera posiada dwa pola typu int, odpowiednio x oraz y
+        stworzysz funkcje mitp_print_points(), która nie zwracazadnej
+wartosci i przyjmuje dwa argumenty - tablice struktur Point oraz liczbe
+elementow w przekazanej tablicy
+            funkcja ta powinna wypisac jakie wspolrzedne x oraz y maja wszystkie przekazane "punkty" z tablicy
+        w funkcji main() stworzysz tablice kilku (np. 3) struktur Point,
+ktorym przypiszesz wybrae przez siebie wartosci
+        w funkcji main() wypiszesz jakie wspolrzedne maja stworzone przez
+Ciebie "punkty" (w petli)
+        wywolasz odpowiednio funkcje mitp_print_points(), do ktorej
+odpowiednio przekazesz stworzona przez siebie tablice oraz liczbe elementow w tablicy

@@ -1,0 +1,32 @@
+Zadanie obowiazkowe:
+
+    Stworz program w którym:
+        stworzysz zmienna const char *HELLO_WORLD = "Hello, World!";
+        stworzysz dwie tablice zmiennych typu char - jedna o wielkosci 5,
+druga o wielkosci 30
+        "wyzerujesz" (ustawisz wszedzie zera) obie tablice funkcja memset()
+            w przypadku podawania rozmiarow tablic skorzystaj z operatora sizeof()
+        za pomoca funkcji strncpy() skopiujesz ciag znakow HELLO_WORLD do obu tablic
+            w przypadku podawania liczby znakow do skopiowanpamietaj zeby
+skopiowc maksymalnie N - 1 znakow do tablicy (gdzie N to jest rozmiar tablicy), ab
+ostatni znak byl znakiem '\0'   
+        wypiszesz zawartos obu tablic znakow na ekranie (w przypadku printf() skorzystaj z %s do formatowania)
+        aby wykorzystac funkcje memset() oraz strncpy(), dolacz biblioteki <string.h>
+
+Zadanie nieobowiazkowe (ale serdecznie polecam zrobic):
+
+    Stworz pogram ktorym
+       stworzysz zmienna const char *TEXT o dowolnej zawartosci (o dowolnym
+ciagu znaków)
+        stworzysz zmienna const char *ptr;
+        przypiszesz zmiennej ptr adres poczatku zmiennej TEXT;
+        w petli while() przeitrujesz za pomoca zmiennej ptr caly ciag znaków
+TEXT i zliczysz w nim liczbe cyfr
+            przykladowa petla może wygadac nastepujaco:
+            ptr = TEXT;
+            while(*ptr != '\0') {
+                // tu wykonaj zliczanie
+                ptr++;
+            }
+            wykorzystaj funkcje isdigit() z biblioteki <ctype.h>
+        wypiszesz ciag znaków TEXT oraz licze cyfr w tym ciagu znaków na ekran

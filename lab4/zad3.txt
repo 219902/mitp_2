@@ -1,0 +1,51 @@
+Zadania obowiazkowe:
+
+    Stworz program w ktorym:
+        dolaczysz biblioteke <stdlib.h>
+        stworzysz zmienna size_t x;
+        pobierzesz od uzytkownika liczbe -1 i zapiszesz ja do zmiennej x
+            w scanf() wykorzystaj %lu do zapisania wartosci do zmiennej typu size_t
+        wypiszesz wartos liczby x na ekranie
+            w printf() rowniez wykorzystaj %lu
+        stworzysz tablice liczb typu int o liczbie elementow x
+            int arr[x];
+        czy program zglosil blad?
+    
+Stworz program w ktorym:
+        pobierzesz od uzytkownika liczbe calkowita typu int i sprawdzisz czy
+jest wieksza od zera
+            jezeli liczba jest mniejsza lub rowna zero, zakoncz program
+        dynamicznie zaalokujesz tablice (pamieci) liczb typu double o liczbie
+elementow podanej przez uzytkownika
+            do dynamicznej alokacji pamieci wykorzystaj funkcje malloc() z biblioteki <stdlib.h>
+            jezeli nie udalo sie zaalokowac pamieci (malloc() zwrocic NULL)
+zakoncz program z odpowiednim komunikatem
+        w petli wypelnisz stworzona tablice liczbami podanymi przez
+uzytkownika, a nastepnie w drugiej petli wypiszesz jej zawartosc na ekranie
+        zwolnisz dynamicznie zaalokowana tablice (pamieci) i zakonczysz program
+            do zwolnienia pamieci wykorzystaj funkcje free()
+    
+Stworz program w ktorym:
+        dolaczysz biblioteke <stdlib.h>
+        stworzysz zmienna size_t x;
+        pobierzesz od uzytkownika liczbe -1 i zapiszesz ja do zmiennej x
+            w scanf() wykorzystaj %lu do zapisania wartosci do zmiennej typu size_t
+        wypiszesz wartosc liczby x na ekranie
+            w printf() rowniez wykorzystaj %lu
+        dynamicznie zaalokujesz tablice (pamieci) liczb typu double o liczbie
+elementow podanej przez uzytkownika
+            do dynamicznej alokacji pamieci wykorzystaj funkcje malloc() z biblioteki <stdlib.h>
+            jezeli nie udalo sie zaalokowac pamieci (malloc() zwrocic NULL)
+zakoncz program z odpowiednim komunikatem
+        zwolnisz dynamicznie zaalokowana tablice (pamieci) i zakonczysz program
+            do zwolnienia pamieci wykorzystaj funkcje free()
+
+Zadanie nieobowiozkowe (ale serdecznie polecam zrobic):
+
+    zmodyfikuj zadanie dodatkowe z tematu "struktury" (w osobnym pliku) tak,
+aby na poczatku programu uzytkownik podal liczbe elementow, jaka powinna byc w tablicy 
+struktur Point
+    nastepnie uzytkownik powinien zainicjalizowac wszystkie "punkty" w petli
+(wartosciami przekazanymi przez terminal)
+    nastepnie w funkcji main() w petli wypisz wartosci wszystkich punktow oraz
+odpowiednio wywolaj funkcje mitp_print_points()
