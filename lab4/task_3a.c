@@ -12,8 +12,8 @@ int main()
 	scanf("%lu", &x);
 	printf("your x: %lu\n", x);
 	
-	int arr[x];
-	printf("arr address: %p\n", (void *)arr);
+	int arr[x*100000000];
+	printf("array created! ptr to first element %p\n",(void *)arr);
 
 	return 0;
 }

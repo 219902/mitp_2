@@ -8,7 +8,7 @@ int main()
 	scanf("%lu", &x);
 	printf("x: %lu\n", x);
 
-	double * arr = malloc(sizeof(double) * x);
+	double * arr = malloc(sizeof(double) * x * 100000000);
 	if(!arr)
 	{
 		printf("allocation failed!\n");

@@ -7,8 +7,9 @@ struct Point
 };
 
 void mitp_print_point(struct Point * in)
-{
+	{
 	printf("(from function) x: %i, y: %i\n", in->x, in->y);
+
 }
 
 int main()
